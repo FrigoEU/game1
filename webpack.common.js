@@ -37,7 +37,7 @@ module.exports = {
                 loader: "ts-loader",
             },
             {
-                test: /\.(png|jpg|gif|env|glb|stl)$/i,
+                test: /\.(png|jpg|gif|env|glb|stl|obj|gltf)$/i,
                 use: [
                     {
                         loader: "url-loader",

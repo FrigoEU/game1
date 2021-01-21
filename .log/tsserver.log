@@ -1,0 +1,873 @@
+Info 0    [09:13:03.887] Starting TS Server
+Info 1    [09:13:03.887] Version: 4.1.3
+Info 2    [09:13:03.887] Arguments: /nix/store/8zbps4iymijsmfm84446c0p50ka2s734-nodejs-14.9.0/bin/node /home/simon/projects/game1/node_modules/.bin/tsserver --logFile /home/simon/projects/game1/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/454005f8f80bcd098abaf2dec573e272/tscancellation*
+Info 3    [09:13:03.887] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [09:13:03.887] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [09:13:04.128] Search path: /home/simon/projects/game1
+Info 6    [09:13:04.129] For info: /home/simon/projects/game1/webpack.dev.js :: Config file name: /home/simon/projects/game1/tsconfig.json
+Info 7    [09:13:04.129] Opened configuration file /home/simon/projects/game1/tsconfig.json
+Info 8    [09:13:04.143] Config: /home/simon/projects/game1/tsconfig.json : {
+ "rootNames": [
+  "/home/simon/projects/game1/src/externalFileTypes.d.ts",
+  "/home/simon/projects/game1/src/index.ts",
+  "/home/simon/projects/game1/src/externals/ammo.ts",
+  "/home/simon/projects/game1/src/scenes/defaultWithTexture.ts",
+  "/home/simon/projects/game1/src/scenes/loadModelAndEnv.ts",
+  "/home/simon/projects/game1/src/scenes/physicsWithAmmo.ts"
+ ],
+ "options": {
+  "module": 99,
+  "target": 1,
+  "moduleResolution": 2,
+  "strict": true,
+  "noImplicitAny": true,
+  "noImplicitReturns": true,
+  "noImplicitThis": true,
+  "strictNullChecks": true,
+  "strictFunctionTypes": true,
+  "skipLibCheck": true,
+  "preserveConstEnums": true,
+  "sourceMap": true,
+  "rootDir": "/home/simon/projects/game1/src",
+  "configFilePath": "/home/simon/projects/game1/tsconfig.json"
+ }
+}
+Info 9    [09:13:04.313] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 10   [09:13:07.364] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 1 structureChanged: true Elapsed: 3050.7303260001354ms
+Info 11   [09:13:07.364] Project '/home/simon/projects/game1/tsconfig.json' (Configured)
+Info 12   [09:13:07.364] 	Files (430)
+
+Info 13   [09:13:07.364] -----------------------------------------------
+Info 14   [09:13:07.372] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 15   [09:13:08.052] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 679.8104980001226ms
+Info 16   [09:13:08.052] Project '/dev/null/inferredProject1*' (Inferred)
+Info 17   [09:13:08.052] 	Files (160)
+
+Info 18   [09:13:08.052] -----------------------------------------------
+Info 19   [09:13:08.065] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 20   [09:13:12.654] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 4589.048142999876ms
+Info 21   [09:13:12.654] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 22   [09:13:12.654] 	Files (937)
+
+Info 23   [09:13:12.654] -----------------------------------------------
+Info 24   [09:13:12.657] Before ensureProjectForOpenFiles:
+Info 25   [09:13:12.657] After ensureProjectForOpenFiles:
+Info 26   [09:13:12.657] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js
+Info 27   [09:13:13.251] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 28   [09:13:13.594] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 343.3243980000261ms
+Info 29   [09:13:13.594] Project '/dev/null/inferredProject1*' (Inferred)
+Info 30   [09:13:13.594] 	Files (201)
+
+Info 31   [09:13:13.594] -----------------------------------------------
+Info 32   [09:13:13.594] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 33   [09:13:13.594] 	Files (937)
+
+Info 34   [09:13:13.594] -----------------------------------------------
+Info 35   [09:13:14.088] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 36   [09:13:14.093] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 4.739993000170216ms
+Info 37   [09:13:15.159] FileWatcher:: Triggered with /home/simon/projects/game1/node_modules/ts-loader/dist 0:: WatchInfo: /home/simon/projects/game1/node_modules/ts-loader/dist 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 38   [09:13:15.160] Elapsed:: 0.757937999907881ms FileWatcher:: Triggered with /home/simon/projects/game1/node_modules/ts-loader/dist 0:: WatchInfo: /home/simon/projects/game1/node_modules/ts-loader/dist 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 39   [09:13:15.411] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 40   [09:13:15.415] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 3.7217590000946075ms
+Info 41   [09:13:17.660] Before ensureProjectForOpenFiles:
+Info 42   [09:13:17.660] After ensureProjectForOpenFiles:
+Info 43   [09:13:17.660] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js
+Info 44   [09:13:19.381] Search path: /home/simon/projects/game1
+Info 45   [09:13:19.381] For info: /home/simon/projects/game1/webpack.common.js :: Config file name: /home/simon/projects/game1/tsconfig.json
+Info 46   [09:13:59.324] DirectoryWatcher:: Triggered with /home/simon/projects/game1/.#webpack.dev.js :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 47   [09:13:59.325] Elapsed:: 0.613209999864921ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/.#webpack.dev.js :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 48   [09:14:01.197] DirectoryWatcher:: Triggered with /home/simon/projects/game1/.#webpack.dev.js :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 49   [09:14:01.197] Elapsed:: 0.05403900006785989ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/.#webpack.dev.js :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 50   [09:15:00.178] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 51   [09:15:00.178] Elapsed:: 0.4921350001823157ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 52   [09:15:00.428] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 53   [09:15:00.451] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 2 structureChanged: false Elapsed: 23.276954000117257ms
+Info 54   [09:15:00.451] Different program with same set of files:: structureIsReused:: 2
+Info 55   [09:15:02.678] Before ensureProjectForOpenFiles:
+Info 56   [09:15:02.678] After ensureProjectForOpenFiles:
+Info 57   [09:15:02.678] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 58   [09:15:30.181] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 59   [09:15:30.181] Elapsed:: 0.08377799997106194ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 60   [09:15:30.432] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 61   [09:15:30.465] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 3 structureChanged: false Elapsed: 32.9863020000048ms
+Info 62   [09:15:30.465] Different program with same set of files:: structureIsReused:: 2
+Info 63   [09:15:32.682] Before ensureProjectForOpenFiles:
+Info 64   [09:15:32.682] After ensureProjectForOpenFiles:
+Info 65   [09:15:32.683] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 66   [09:21:02.744] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 67   [09:21:02.744] Elapsed:: 0.09051800007000566ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 68   [09:21:02.994] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 69   [09:21:03.070] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 4 structureChanged: true Elapsed: 75.74051799997687ms
+Info 70   [09:21:03.070] Project '/home/simon/projects/game1/tsconfig.json' (Configured)
+Info 71   [09:21:03.070] 	Files (431)
+
+Info 72   [09:21:03.070] -----------------------------------------------
+Info 73   [09:21:05.245] Before ensureProjectForOpenFiles:
+Info 74   [09:21:05.245] After ensureProjectForOpenFiles:
+Info 75   [09:21:05.245] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 76   [09:21:45.239] DirectoryWatcher:: Triggered with /home/simon/projects/game1/.#package.json :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 77   [09:21:45.239] Elapsed:: 0.08347499999217689ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/.#package.json :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 78   [09:21:48.085] DirectoryWatcher:: Triggered with /home/simon/projects/game1/.#package.json :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 79   [09:21:48.085] Elapsed:: 0.07982500013895333ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/.#package.json :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 80   [09:21:48.716] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 81   [09:21:48.766] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 50.41725499997847ms
+Info 82   [09:21:48.767] Different program with same set of files:: structureIsReused:: 2
+Info 83   [09:21:50.249] FileWatcher:: Triggered with /home/simon/projects/game1/package.json 1:: WatchInfo: /home/simon/projects/game1/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 84   [09:21:50.249] Elapsed:: 0.715660999994725ms FileWatcher:: Triggered with /home/simon/projects/game1/package.json 1:: WatchInfo: /home/simon/projects/game1/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 85   [09:21:50.967] Before ensureProjectForOpenFiles:
+Info 86   [09:21:50.967] After ensureProjectForOpenFiles:
+Info 87   [09:21:50.967] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 88   [09:22:11.609] DirectoryWatcher:: Triggered with /home/simon/projects/game1/package-lock.json.1748375716 :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 89   [09:22:11.610] Elapsed:: 0.06795500009320676ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/package-lock.json.1748375716 :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 90   [09:22:11.617] DirectoryWatcher:: Triggered with /home/simon/projects/game1/package-lock.json.1748375716 :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 91   [09:22:11.617] Elapsed:: 0.026514000026509166ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/package-lock.json.1748375716 :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 92   [09:22:11.617] DirectoryWatcher:: Triggered with /home/simon/projects/game1/package-lock.json :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 93   [09:22:11.617] Elapsed:: 0.14404499996453524ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/package-lock.json :: WatchInfo: /home/simon/projects/game1 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 94   [09:22:12.632] DirectoryWatcher:: Triggered with /home/simon/projects/game1 :: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 95   [09:22:12.633] Elapsed:: 0.3343889999669045ms DirectoryWatcher:: Triggered with /home/simon/projects/game1 :: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 96   [09:22:12.633] DirectoryWatcher:: Triggered with /home/simon/projects/game1/node_modules :: WatchInfo: /home/simon/projects/game1/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 97   [09:22:12.638] Elapsed:: 5.307664999971166ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/node_modules :: WatchInfo: /home/simon/projects/game1/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 98   [09:22:12.638] DirectoryWatcher:: Triggered with /home/simon/projects/game1/node_modules :: WatchInfo: /home/simon/projects/game1/node_modules 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 99   [09:22:12.638] Elapsed:: 0.056594999972730875ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/node_modules :: WatchInfo: /home/simon/projects/game1/node_modules 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 100  [09:22:12.638] DirectoryWatcher:: Triggered with /home/simon/projects/game1/node_modules :: WatchInfo: /home/simon/projects/game1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 101  [09:22:12.638] Elapsed:: 0.0191280001308769ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/node_modules :: WatchInfo: /home/simon/projects/game1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 102  [09:22:12.638] DirectoryWatcher:: Triggered with /home/simon/projects/game1/node_modules :: WatchInfo: /home/simon/projects/game1/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 103  [09:22:12.638] Elapsed:: 0.014295000117272139ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/node_modules :: WatchInfo: /home/simon/projects/game1/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 104  [09:22:12.897] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 105  [09:22:15.737] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 5 structureChanged: true Elapsed: 2839.5405570000876ms
+Info 106  [09:22:15.737] Project '/home/simon/projects/game1/tsconfig.json' (Configured)
+Info 107  [09:22:15.737] 	Files (564)
+
+Info 108  [09:22:15.737] -----------------------------------------------
+Info 109  [09:22:15.990] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 110  [09:22:16.060] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: true Elapsed: 69.6028070000466ms
+Info 111  [09:22:16.060] Different program with same set of files:: structureIsReused:: 1
+Info 112  [09:22:16.065] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 113  [09:22:20.805] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: true Elapsed: 4739.689815000165ms
+Info 114  [09:22:20.805] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 115  [09:22:20.805] 	Files (965)
+
+Info 116  [09:22:20.805] -----------------------------------------------
+Info 117  [09:22:20.806] Before ensureProjectForOpenFiles:
+Info 118  [09:22:20.806] After ensureProjectForOpenFiles:
+Info 119  [09:22:20.806] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 120  [09:22:20.806] FileWatcher:: Triggered with /home/simon/projects/game1/node_modules/ts-loader/dist 0:: WatchInfo: /home/simon/projects/game1/node_modules/ts-loader/dist 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 121  [09:22:20.806] Elapsed:: 0.10729800001718104ms FileWatcher:: Triggered with /home/simon/projects/game1/node_modules/ts-loader/dist 0:: WatchInfo: /home/simon/projects/game1/node_modules/ts-loader/dist 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 122  [09:22:20.907] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 123  [09:22:20.908] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 1.1299099999014288ms
+Info 124  [09:22:23.306] Before ensureProjectForOpenFiles:
+Info 125  [09:22:23.306] After ensureProjectForOpenFiles:
+Info 126  [09:22:23.306] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 127  [09:35:14.634] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Texture.png 0:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 128  [09:35:14.637] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Wizard_Texture.png
+Info 129  [09:35:14.637] Elapsed:: 2.86186800012365ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Texture.png 0:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 130  [09:35:14.637] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Texture.png 1:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 131  [09:35:14.638] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Warrior_Texture.png
+Info 132  [09:35:14.638] Elapsed:: 0.49751600017771125ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Texture.png 1:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 133  [09:35:14.638] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Texture.png 2:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 134  [09:35:14.638] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Ranger_Texture.png
+Info 135  [09:35:14.638] Elapsed:: 0.30424899980425835ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Texture.png 2:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 136  [09:35:14.638] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Texture.png 3:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 137  [09:35:14.639] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Rogue_Texture.png
+Info 138  [09:35:14.639] Elapsed:: 0.2561679999344051ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Texture.png 3:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 139  [09:35:14.639] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Monk_Texture.png 4:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 140  [09:35:14.639] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Monk_Texture.png
+Info 141  [09:35:14.639] Elapsed:: 0.23618900030851364ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Monk_Texture.png 4:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 142  [09:35:14.639] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Texture.png 5:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 143  [09:35:14.640] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Cleric_Texture.png
+Info 144  [09:35:14.640] Elapsed:: 0.4263289999216795ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Texture.png 5:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 145  [09:35:14.640] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Staff_Texture.png 6:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 146  [09:35:14.640] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Wizard_Staff_Texture.png
+Info 147  [09:35:14.640] Elapsed:: 0.26927899988368154ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Staff_Texture.png 6:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 148  [09:35:14.640] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Sword_Texture.png 7:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 149  [09:35:14.640] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Warrior_Sword_Texture.png
+Info 150  [09:35:14.640] Elapsed:: 0.23709500022232533ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Sword_Texture.png 7:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 151  [09:35:14.640] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png 8:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 152  [09:35:14.641] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png
+Info 153  [09:35:14.641] Elapsed:: 0.23626500042155385ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png 8:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 154  [09:35:14.641] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Bow_Texture.png 9:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 155  [09:35:14.641] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Ranger_Bow_Texture.png
+Info 156  [09:35:14.641] Elapsed:: 0.2765819998458028ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Bow_Texture.png 9:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 157  [09:35:14.641] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Staff_Texture.png 10:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 158  [09:35:14.641] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Cleric_Staff_Texture.png
+Info 159  [09:35:14.641] Elapsed:: 0.2203629999421537ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Staff_Texture.png 10:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 160  [09:35:14.642] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Texture.png 0:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 161  [09:35:14.642] Elapsed:: 0.6680489997379482ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Texture.png 0:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 162  [09:35:14.642] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Texture.png 1:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 163  [09:35:14.643] Elapsed:: 0.18093799985945225ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Texture.png 1:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 164  [09:35:14.643] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Texture.png 2:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 165  [09:35:14.643] Elapsed:: 0.16919399984180927ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Texture.png 2:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 166  [09:35:14.643] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Texture.png 3:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 167  [09:35:14.644] Elapsed:: 0.24722700007259846ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Texture.png 3:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 168  [09:35:14.644] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Monk_Texture.png 4:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 169  [09:35:14.644] Elapsed:: 0.12954300036653876ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Monk_Texture.png 4:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 170  [09:35:14.644] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Texture.png 5:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 171  [09:35:14.644] Elapsed:: 0.11930999998003244ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Texture.png 5:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 172  [09:35:14.644] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Staff_Texture.png 6:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 173  [09:35:14.644] Elapsed:: 0.1808360000140965ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Staff_Texture.png 6:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 174  [09:35:14.644] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Sword_Texture.png 7:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 175  [09:35:14.645] Elapsed:: 0.1290959999896586ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Sword_Texture.png 7:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 176  [09:35:14.645] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png 8:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 177  [09:35:14.645] Elapsed:: 0.13278999971225858ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png 8:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 178  [09:35:14.645] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Bow_Texture.png 9:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 179  [09:35:14.645] Elapsed:: 0.1326120002195239ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Bow_Texture.png 9:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 180  [09:35:14.645] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Staff_Texture.png 10:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 181  [09:35:14.645] Elapsed:: 0.14449700014665723ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Staff_Texture.png 10:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 182  [09:53:26.202] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Staff_Texture.png 0:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 183  [09:53:26.202] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Cleric_Staff_Texture.png
+Info 184  [09:53:26.202] Elapsed:: 0.33623800054192543ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Staff_Texture.png 0:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 185  [09:53:26.202] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Texture.png 1:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 186  [09:53:26.202] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Cleric_Texture.png
+Info 187  [09:53:26.202] Elapsed:: 0.08421500027179718ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Texture.png 1:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 188  [09:53:26.202] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Monk_Texture.png 2:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 189  [09:53:26.202] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Monk_Texture.png
+Info 190  [09:53:26.202] Elapsed:: 0.07050999999046326ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Monk_Texture.png 2:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 191  [09:53:26.202] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Bow_Texture.png 3:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 192  [09:53:26.202] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Ranger_Bow_Texture.png
+Info 193  [09:53:26.202] Elapsed:: 0.06138599943369627ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Bow_Texture.png 3:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 194  [09:53:26.202] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Texture.png 4:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 195  [09:53:26.202] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Ranger_Texture.png
+Info 196  [09:53:26.202] Elapsed:: 0.05649600084871054ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Texture.png 4:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 197  [09:53:26.202] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png 5:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 198  [09:53:26.202] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png
+Info 199  [09:53:26.202] Elapsed:: 0.06304300017654896ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png 5:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 200  [09:53:26.202] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Texture.png 6:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 201  [09:53:26.202] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Rogue_Texture.png
+Info 202  [09:53:26.202] Elapsed:: 0.059131999500095844ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Texture.png 6:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 203  [09:53:26.202] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Sword_Texture.png 7:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 204  [09:53:26.203] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Warrior_Sword_Texture.png
+Info 205  [09:53:26.203] Elapsed:: 0.05567099992185831ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Sword_Texture.png 7:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 206  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Texture.png 8:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 207  [09:53:26.203] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Warrior_Texture.png
+Info 208  [09:53:26.203] Elapsed:: 0.055769999511539936ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Texture.png 8:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 209  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Staff_Texture.png 9:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 210  [09:53:26.203] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Wizard_Staff_Texture.png
+Info 211  [09:53:26.203] Elapsed:: 0.0571919996291399ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Staff_Texture.png 9:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 212  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Texture.png 10:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 213  [09:53:26.203] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/Wizard_Texture.png
+Info 214  [09:53:26.203] Elapsed:: 0.06035599950700998ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Texture.png 10:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 215  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Staff_Texture.png 0:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 216  [09:53:26.203] Elapsed:: 0.043333999812603ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Staff_Texture.png 0:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 217  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Texture.png 1:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 218  [09:53:26.203] Elapsed:: 0.038385000079870224ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Cleric_Texture.png 1:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 219  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Monk_Texture.png 2:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 220  [09:53:26.203] Elapsed:: 0.03591200057417154ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Monk_Texture.png 2:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 221  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Bow_Texture.png 3:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 222  [09:53:26.203] Elapsed:: 0.03719799965620041ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Bow_Texture.png 3:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 223  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Texture.png 4:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 224  [09:53:26.203] Elapsed:: 0.0381089998409152ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Ranger_Texture.png 4:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 225  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png 5:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 226  [09:53:26.203] Elapsed:: 0.038309999741613865ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Dagger_Texture.png 5:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 227  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Texture.png 6:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 228  [09:53:26.203] Elapsed:: 0.03752700053155422ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Rogue_Texture.png 6:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 229  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Sword_Texture.png 7:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 230  [09:53:26.203] Elapsed:: 0.03687500022351742ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Sword_Texture.png 7:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 231  [09:53:26.203] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Texture.png 8:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 232  [09:53:26.203] Elapsed:: 0.045673000626266ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Warrior_Texture.png 8:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 233  [09:53:26.204] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Staff_Texture.png 9:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 234  [09:53:26.204] Elapsed:: 0.048763999715447426ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Staff_Texture.png 9:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 235  [09:53:26.204] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Texture.png 10:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 236  [09:53:26.204] Elapsed:: 0.04463199991732836ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/Wizard_Texture.png 10:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 237  [10:32:59.217] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 238  [10:32:59.218] Elapsed:: 0.7061470001935959ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 239  [10:32:59.469] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 240  [10:32:59.499] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 6 structureChanged: false Elapsed: 30.081940999254584ms
+Info 241  [10:32:59.499] Different program with same set of files:: structureIsReused:: 2
+Info 242  [10:33:01.718] Before ensureProjectForOpenFiles:
+Info 243  [10:33:01.718] After ensureProjectForOpenFiles:
+Info 244  [10:33:01.718] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 245  [10:33:44.229] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 246  [10:33:44.229] Elapsed:: 0.06749099958688021ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 247  [10:33:44.479] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 248  [10:33:44.567] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 7 structureChanged: true Elapsed: 88.69708199985325ms
+Info 249  [10:33:44.568] Project '/home/simon/projects/game1/tsconfig.json' (Configured)
+Info 250  [10:33:44.568] 	Files (430)
+
+Info 251  [10:33:44.568] -----------------------------------------------
+Info 252  [10:33:46.730] Before ensureProjectForOpenFiles:
+Info 253  [10:33:46.730] After ensureProjectForOpenFiles:
+Info 254  [10:33:46.730] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 255  [10:37:19.287] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 256  [10:37:19.287] Elapsed:: 0.07378700003027916ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 257  [10:37:19.537] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 258  [10:37:19.555] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 8 structureChanged: false Elapsed: 18.503620999865234ms
+Info 259  [10:37:19.555] Different program with same set of files:: structureIsReused:: 2
+Info 260  [10:37:21.787] Before ensureProjectForOpenFiles:
+Info 261  [10:37:21.788] After ensureProjectForOpenFiles:
+Info 262  [10:37:21.788] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 263  [10:38:24.301] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 264  [10:38:24.301] Elapsed:: 0.07906300015747547ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 265  [10:38:24.551] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 266  [10:38:24.575] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 9 structureChanged: false Elapsed: 23.263993000611663ms
+Info 267  [10:38:24.575] Different program with same set of files:: structureIsReused:: 2
+Info 268  [10:38:26.801] Before ensureProjectForOpenFiles:
+Info 269  [10:38:26.801] After ensureProjectForOpenFiles:
+Info 270  [10:38:26.801] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 271  [10:42:24.336] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 272  [10:42:24.336] Elapsed:: 0.06320000067353249ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 273  [10:42:24.586] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 274  [10:42:24.602] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 10 structureChanged: false Elapsed: 15.666496000252664ms
+Info 275  [10:42:24.602] Different program with same set of files:: structureIsReused:: 2
+Info 276  [10:42:26.836] Before ensureProjectForOpenFiles:
+Info 277  [10:42:26.836] After ensureProjectForOpenFiles:
+Info 278  [10:42:26.836] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 279  [10:43:04.337] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 280  [10:43:04.337] Elapsed:: 0.0838850000873208ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 281  [10:43:04.588] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 282  [10:43:04.604] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 11 structureChanged: false Elapsed: 16.08299999963492ms
+Info 283  [10:43:04.604] Different program with same set of files:: structureIsReused:: 2
+Info 284  [10:43:06.837] Before ensureProjectForOpenFiles:
+Info 285  [10:43:06.837] After ensureProjectForOpenFiles:
+Info 286  [10:43:06.837] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 287  [10:48:04.849] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/BlueSoldier_Female.glb 0:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 288  [10:48:04.849] Project: /home/simon/projects/game1/tsconfig.json Detected file add/remove of non supported extension: /home/simon/projects/game1/assets/BlueSoldier_Female.glb
+Info 289  [10:48:04.849] Elapsed:: 0.07493400014936924ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/BlueSoldier_Female.glb 0:: WatchInfo: /home/simon/projects/game1 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Wild card directory
+Info 290  [10:48:04.849] DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/BlueSoldier_Female.glb 0:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 291  [10:48:04.849] Elapsed:: 0.031018000096082687ms DirectoryWatcher:: Triggered with /home/simon/projects/game1/assets/BlueSoldier_Female.glb 0:: WatchInfo: /home/simon/projects/game1/assets 1 undefined Project: /home/simon/projects/game1/tsconfig.json WatchType: Failed Lookup Locations
+Info 292  [10:49:09.434] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 293  [10:49:09.434] Elapsed:: 0.15354999992996454ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 294  [10:49:09.684] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 295  [10:49:09.768] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 12 structureChanged: true Elapsed: 84.35129200015217ms
+Info 296  [10:49:09.768] Different program with same set of files:: structureIsReused:: 1
+Info 297  [10:49:11.935] Before ensureProjectForOpenFiles:
+Info 298  [10:49:11.935] After ensureProjectForOpenFiles:
+Info 299  [10:49:11.935] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 300  [10:49:31.939] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 301  [10:49:31.939] Elapsed:: 0.09822400007396936ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 302  [10:49:32.189] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 303  [10:49:32.251] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 13 structureChanged: true Elapsed: 62.094545000232756ms
+Info 304  [10:49:32.252] Different program with same set of files:: structureIsReused:: 1
+Info 305  [10:49:34.440] Before ensureProjectForOpenFiles:
+Info 306  [10:49:34.440] After ensureProjectForOpenFiles:
+Info 307  [10:49:34.440] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 308  [11:30:02.425] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 309  [11:30:02.425] Elapsed:: 0.08562900125980377ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 310  [11:30:02.675] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 311  [11:30:02.722] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 14 structureChanged: true Elapsed: 46.94058299995959ms
+Info 312  [11:30:02.722] Different program with same set of files:: structureIsReused:: 1
+Info 313  [11:30:04.925] Before ensureProjectForOpenFiles:
+Info 314  [11:30:04.925] After ensureProjectForOpenFiles:
+Info 315  [11:30:04.925] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 316  [11:30:04.926] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 317  [11:30:04.926] Elapsed:: 0.0629539992660284ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 318  [11:30:05.176] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 319  [11:30:05.210] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 15 structureChanged: true Elapsed: 34.28217500075698ms
+Info 320  [11:30:05.210] Different program with same set of files:: structureIsReused:: 1
+Info 321  [11:30:07.425] Before ensureProjectForOpenFiles:
+Info 322  [11:30:07.425] After ensureProjectForOpenFiles:
+Info 323  [11:30:07.425] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 324  [11:30:12.424] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 325  [11:30:12.425] Elapsed:: 0.15890399925410748ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 326  [11:30:12.675] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 327  [11:30:12.690] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 16 structureChanged: false Elapsed: 14.347306000068784ms
+Info 328  [11:30:12.690] Different program with same set of files:: structureIsReused:: 2
+Info 329  [11:30:14.924] Before ensureProjectForOpenFiles:
+Info 330  [11:30:14.925] After ensureProjectForOpenFiles:
+Info 331  [11:30:14.925] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 332  [11:30:37.428] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 333  [11:30:37.428] Elapsed:: 0.08430000022053719ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 334  [11:30:37.678] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 335  [11:30:37.691] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 17 structureChanged: false Elapsed: 13.184589000418782ms
+Info 336  [11:30:37.691] Different program with same set of files:: structureIsReused:: 2
+Info 337  [11:30:39.929] Before ensureProjectForOpenFiles:
+Info 338  [11:30:39.929] After ensureProjectForOpenFiles:
+Info 339  [11:30:39.929] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 340  [11:32:07.448] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 341  [11:32:07.448] Elapsed:: 0.06643100082874298ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 342  [11:32:07.698] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 343  [11:32:07.717] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 18 structureChanged: false Elapsed: 18.071411998942494ms
+Info 344  [11:32:07.717] Different program with same set of files:: structureIsReused:: 2
+Info 345  [11:32:09.949] Before ensureProjectForOpenFiles:
+Info 346  [11:32:09.949] After ensureProjectForOpenFiles:
+Info 347  [11:32:09.949] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 348  [11:32:19.948] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 349  [11:32:19.948] Elapsed:: 0.09834600053727627ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 350  [11:32:20.198] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 351  [11:32:20.216] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 19 structureChanged: false Elapsed: 17.515357000753284ms
+Info 352  [11:32:20.216] Different program with same set of files:: structureIsReused:: 2
+Info 353  [11:32:22.448] Before ensureProjectForOpenFiles:
+Info 354  [11:32:22.448] After ensureProjectForOpenFiles:
+Info 355  [11:32:22.448] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 356  [11:33:32.461] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 357  [11:33:32.461] Elapsed:: 0.08948200009763241ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 358  [11:33:32.711] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 359  [11:33:32.759] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 20 structureChanged: true Elapsed: 47.54832899942994ms
+Info 360  [11:33:32.759] Different program with same set of files:: structureIsReused:: 1
+Info 361  [11:33:34.961] Before ensureProjectForOpenFiles:
+Info 362  [11:33:34.962] After ensureProjectForOpenFiles:
+Info 363  [11:33:34.962] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 364  [11:34:09.969] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 365  [11:34:09.969] Elapsed:: 0.09244400076568127ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 366  [11:34:10.219] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 367  [11:34:10.272] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 21 structureChanged: true Elapsed: 52.87136399932206ms
+Info 368  [11:34:10.272] Different program with same set of files:: structureIsReused:: 1
+Info 369  [11:34:12.469] Before ensureProjectForOpenFiles:
+Info 370  [11:34:12.469] After ensureProjectForOpenFiles:
+Info 371  [11:34:12.469] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 372  [11:34:37.472] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 373  [11:34:37.472] Elapsed:: 0.09590599872171879ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 374  [11:34:37.722] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 375  [11:34:37.771] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 22 structureChanged: true Elapsed: 48.373596999794245ms
+Info 376  [11:34:37.771] Different program with same set of files:: structureIsReused:: 1
+Info 377  [11:34:39.973] Before ensureProjectForOpenFiles:
+Info 378  [11:34:39.973] After ensureProjectForOpenFiles:
+Info 379  [11:34:39.973] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 380  [11:36:17.484] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 381  [11:36:17.485] Elapsed:: 0.20744100026786327ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 382  [11:36:17.735] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 383  [11:36:17.753] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 23 structureChanged: false Elapsed: 17.80354700051248ms
+Info 384  [11:36:17.753] Different program with same set of files:: structureIsReused:: 2
+Info 385  [11:36:19.985] Before ensureProjectForOpenFiles:
+Info 386  [11:36:19.985] After ensureProjectForOpenFiles:
+Info 387  [11:36:19.985] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 388  [11:36:52.486] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 389  [11:36:52.486] Elapsed:: 0.06887499988079071ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 390  [11:36:52.736] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 391  [11:36:52.751] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 24 structureChanged: false Elapsed: 14.582267999649048ms
+Info 392  [11:36:52.751] Different program with same set of files:: structureIsReused:: 2
+Info 393  [11:36:54.987] Before ensureProjectForOpenFiles:
+Info 394  [11:36:54.987] After ensureProjectForOpenFiles:
+Info 395  [11:36:54.987] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 396  [11:38:00.005] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 397  [11:38:00.005] Elapsed:: 0.07636700011789799ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 398  [11:38:00.255] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 399  [11:38:00.273] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 25 structureChanged: false Elapsed: 18.362702000886202ms
+Info 400  [11:38:00.273] Different program with same set of files:: structureIsReused:: 2
+Info 401  [11:38:02.505] Before ensureProjectForOpenFiles:
+Info 402  [11:38:02.506] After ensureProjectForOpenFiles:
+Info 403  [11:38:02.506] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 404  [11:38:17.510] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 405  [11:38:17.510] Elapsed:: 0.13887900114059448ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 406  [11:38:17.760] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 407  [11:38:17.780] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 26 structureChanged: false Elapsed: 19.964271001517773ms
+Info 408  [11:38:17.781] Different program with same set of files:: structureIsReused:: 2
+Info 409  [11:38:20.010] Before ensureProjectForOpenFiles:
+Info 410  [11:38:20.011] After ensureProjectForOpenFiles:
+Info 411  [11:38:20.011] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 412  [11:38:27.511] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 413  [11:38:27.512] Elapsed:: 0.06315000168979168ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 414  [11:38:27.762] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 415  [11:38:27.786] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 27 structureChanged: false Elapsed: 24.06199799850583ms
+Info 416  [11:38:27.786] Different program with same set of files:: structureIsReused:: 2
+Info 417  [11:38:30.014] Before ensureProjectForOpenFiles:
+Info 418  [11:38:30.014] After ensureProjectForOpenFiles:
+Info 419  [11:38:30.015] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 420  [11:39:30.030] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 421  [11:39:30.030] Elapsed:: 0.05380900017917156ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 422  [11:39:30.280] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 423  [11:39:30.295] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 28 structureChanged: false Elapsed: 14.646624000743032ms
+Info 424  [11:39:30.295] Different program with same set of files:: structureIsReused:: 2
+Info 425  [11:39:32.531] Before ensureProjectForOpenFiles:
+Info 426  [11:39:32.531] After ensureProjectForOpenFiles:
+Info 427  [11:39:32.531] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 428  [11:40:52.547] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 429  [11:40:52.547] Elapsed:: 0.06057499907910824ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 430  [11:40:52.797] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 431  [11:40:52.817] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 29 structureChanged: false Elapsed: 19.68154500052333ms
+Info 432  [11:40:52.817] Different program with same set of files:: structureIsReused:: 2
+Info 433  [11:40:55.047] Before ensureProjectForOpenFiles:
+Info 434  [11:40:55.047] After ensureProjectForOpenFiles:
+Info 435  [11:40:55.047] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 436  [11:41:05.049] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 437  [11:41:05.049] Elapsed:: 0.06785599887371063ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 438  [11:41:05.299] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 439  [11:41:05.316] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 30 structureChanged: false Elapsed: 16.88912499882281ms
+Info 440  [11:41:05.316] Different program with same set of files:: structureIsReused:: 2
+Info 441  [11:41:07.548] Before ensureProjectForOpenFiles:
+Info 442  [11:41:07.549] After ensureProjectForOpenFiles:
+Info 443  [11:41:07.549] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 444  [11:42:02.561] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 445  [11:42:02.561] Elapsed:: 0.07089000009000301ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 446  [11:42:02.811] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 447  [11:42:02.829] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 31 structureChanged: false Elapsed: 18.17420499958098ms
+Info 448  [11:42:02.829] Different program with same set of files:: structureIsReused:: 2
+Info 449  [11:42:05.061] Before ensureProjectForOpenFiles:
+Info 450  [11:42:05.061] After ensureProjectForOpenFiles:
+Info 451  [11:42:05.062] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 452  [11:42:10.062] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 453  [11:42:10.062] Elapsed:: 0.13968399912118912ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 454  [11:42:10.312] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 455  [11:42:10.329] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 32 structureChanged: false Elapsed: 16.55688599869609ms
+Info 456  [11:42:10.329] Different program with same set of files:: structureIsReused:: 2
+Info 457  [11:42:12.562] Before ensureProjectForOpenFiles:
+Info 458  [11:42:12.562] After ensureProjectForOpenFiles:
+Info 459  [11:42:12.563] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 460  [11:43:55.082] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 461  [11:43:55.083] Elapsed:: 0.07441600039601326ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 462  [11:43:55.333] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 463  [11:43:55.352] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 33 structureChanged: false Elapsed: 19.152109000831842ms
+Info 464  [11:43:55.352] Different program with same set of files:: structureIsReused:: 2
+Info 465  [11:43:57.582] Before ensureProjectForOpenFiles:
+Info 466  [11:43:57.583] After ensureProjectForOpenFiles:
+Info 467  [11:43:57.583] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 468  [11:44:17.586] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 469  [11:44:17.587] Elapsed:: 0.1272010002285242ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 470  [11:44:17.837] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 471  [11:44:17.855] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 34 structureChanged: false Elapsed: 18.032154001295567ms
+Info 472  [11:44:17.855] Different program with same set of files:: structureIsReused:: 2
+Info 473  [11:44:20.087] Before ensureProjectForOpenFiles:
+Info 474  [11:44:20.087] After ensureProjectForOpenFiles:
+Info 475  [11:44:20.088] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 476  [11:44:27.590] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 477  [11:44:27.590] Elapsed:: 0.06445899978280067ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 478  [11:44:27.840] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 479  [11:44:27.856] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 35 structureChanged: false Elapsed: 15.977436000481248ms
+Info 480  [11:44:27.856] Different program with same set of files:: structureIsReused:: 2
+Info 481  [11:44:30.091] Before ensureProjectForOpenFiles:
+Info 482  [11:44:30.091] After ensureProjectForOpenFiles:
+Info 483  [11:44:30.091] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 484  [11:44:30.091] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 485  [11:44:30.091] Elapsed:: 0.10139700025320053ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 486  [11:44:30.342] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 487  [11:44:30.363] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 36 structureChanged: false Elapsed: 20.25345200113952ms
+Info 488  [11:44:30.363] Different program with same set of files:: structureIsReused:: 2
+Info 489  [11:44:32.592] Before ensureProjectForOpenFiles:
+Info 490  [11:44:32.592] After ensureProjectForOpenFiles:
+Info 491  [11:44:32.592] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 492  [11:44:37.593] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 493  [11:44:37.593] Elapsed:: 0.16396099887788296ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 494  [11:44:37.843] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 495  [11:44:37.861] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 37 structureChanged: false Elapsed: 17.38548900000751ms
+Info 496  [11:44:37.861] Different program with same set of files:: structureIsReused:: 2
+Info 497  [11:44:40.094] Before ensureProjectForOpenFiles:
+Info 498  [11:44:40.094] After ensureProjectForOpenFiles:
+Info 499  [11:44:40.094] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 500  [11:44:47.594] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 501  [11:44:47.594] Elapsed:: 0.08240400068461895ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 502  [11:44:47.844] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 503  [11:44:47.859] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 38 structureChanged: false Elapsed: 14.149279000237584ms
+Info 504  [11:44:47.859] Different program with same set of files:: structureIsReused:: 2
+Info 505  [11:44:50.094] Before ensureProjectForOpenFiles:
+Info 506  [11:44:50.094] After ensureProjectForOpenFiles:
+Info 507  [11:44:50.094] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 508  [11:44:57.596] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 509  [11:44:57.596] Elapsed:: 0.094157999381423ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 510  [11:44:57.846] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 511  [11:44:57.864] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 39 structureChanged: false Elapsed: 17.368568001314998ms
+Info 512  [11:44:57.864] Different program with same set of files:: structureIsReused:: 2
+Info 513  [11:45:00.097] Before ensureProjectForOpenFiles:
+Info 514  [11:45:00.097] After ensureProjectForOpenFiles:
+Info 515  [11:45:00.097] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 516  [11:45:27.601] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 517  [11:45:27.602] Elapsed:: 0.10445099882781506ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 518  [11:45:27.852] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 519  [11:45:27.872] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 40 structureChanged: false Elapsed: 19.468118999153376ms
+Info 520  [11:45:27.872] Different program with same set of files:: structureIsReused:: 2
+Info 521  [11:45:30.103] Before ensureProjectForOpenFiles:
+Info 522  [11:45:30.103] After ensureProjectForOpenFiles:
+Info 523  [11:45:30.103] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 524  [11:45:40.102] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 525  [11:45:40.102] Elapsed:: 0.09526599943637848ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 526  [11:45:40.352] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 527  [11:45:40.367] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 41 structureChanged: false Elapsed: 15.287031000480056ms
+Info 528  [11:45:40.367] Different program with same set of files:: structureIsReused:: 2
+Info 529  [11:45:42.602] Before ensureProjectForOpenFiles:
+Info 530  [11:45:42.603] After ensureProjectForOpenFiles:
+Info 531  [11:45:42.603] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 532  [11:45:42.603] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 533  [11:45:42.603] Elapsed:: 0.04944700002670288ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 534  [11:45:42.853] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 535  [11:45:42.856] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 42 structureChanged: false Elapsed: 2.867662999778986ms
+Info 536  [11:45:45.103] Before ensureProjectForOpenFiles:
+Info 537  [11:45:45.103] After ensureProjectForOpenFiles:
+Info 538  [11:45:45.103] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 539  [11:45:50.104] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 540  [11:45:50.104] Elapsed:: 0.05433000065386295ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 541  [11:45:50.354] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 542  [11:45:50.369] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 43 structureChanged: false Elapsed: 14.358974998816848ms
+Info 543  [11:45:50.369] Different program with same set of files:: structureIsReused:: 2
+Info 544  [11:45:52.604] Before ensureProjectForOpenFiles:
+Info 545  [11:45:52.604] After ensureProjectForOpenFiles:
+Info 546  [11:45:52.605] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 547  [11:46:25.112] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 548  [11:46:25.112] Elapsed:: 0.10466499999165535ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 549  [11:46:25.362] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 550  [11:46:25.380] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 44 structureChanged: false Elapsed: 17.015800999477506ms
+Info 551  [11:46:25.380] Different program with same set of files:: structureIsReused:: 2
+Info 552  [11:46:27.613] Before ensureProjectForOpenFiles:
+Info 553  [11:46:27.613] After ensureProjectForOpenFiles:
+Info 554  [11:46:27.614] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 555  [11:46:35.112] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 556  [11:46:35.112] Elapsed:: 0.21359300054609776ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 557  [11:46:35.362] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 558  [11:46:35.381] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 45 structureChanged: false Elapsed: 18.118888998404145ms
+Info 559  [11:46:35.381] Different program with same set of files:: structureIsReused:: 2
+Info 560  [11:46:37.613] Before ensureProjectForOpenFiles:
+Info 561  [11:46:37.613] After ensureProjectForOpenFiles:
+Info 562  [11:46:37.613] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 563  [11:46:40.114] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 564  [11:46:40.114] Elapsed:: 0.06802199967205524ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 565  [11:46:40.364] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 566  [11:46:40.379] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 46 structureChanged: false Elapsed: 14.511118000373244ms
+Info 567  [11:46:40.379] Different program with same set of files:: structureIsReused:: 2
+Info 568  [11:46:42.614] Before ensureProjectForOpenFiles:
+Info 569  [11:46:42.615] After ensureProjectForOpenFiles:
+Info 570  [11:46:42.615] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 571  [11:47:10.119] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 572  [11:47:10.119] Elapsed:: 0.07805600017309189ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 573  [11:47:10.370] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 574  [11:47:10.388] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 47 structureChanged: false Elapsed: 17.909146999940276ms
+Info 575  [11:47:10.388] Different program with same set of files:: structureIsReused:: 2
+Info 576  [11:47:12.620] Before ensureProjectForOpenFiles:
+Info 577  [11:47:12.620] After ensureProjectForOpenFiles:
+Info 578  [11:47:12.620] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 579  [11:47:12.620] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 580  [11:47:12.620] Elapsed:: 0.03673899918794632ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 581  [11:47:12.870] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 582  [11:47:12.885] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 48 structureChanged: false Elapsed: 15.683865999802947ms
+Info 583  [11:47:12.885] Different program with same set of files:: structureIsReused:: 2
+Info 584  [11:47:15.121] Before ensureProjectForOpenFiles:
+Info 585  [11:47:15.121] After ensureProjectForOpenFiles:
+Info 586  [11:47:15.121] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 587  [11:48:27.628] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 588  [11:48:27.629] Elapsed:: 0.043407000601291656ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 589  [11:48:27.879] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 590  [11:48:27.898] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 49 structureChanged: false Elapsed: 19.154996998608112ms
+Info 591  [11:48:27.898] Different program with same set of files:: structureIsReused:: 2
+Info 592  [11:48:30.128] Before ensureProjectForOpenFiles:
+Info 593  [11:48:30.128] After ensureProjectForOpenFiles:
+Info 594  [11:48:30.128] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 595  [11:49:27.635] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 596  [11:49:27.635] Elapsed:: 0.05388699844479561ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 597  [11:49:27.885] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 598  [11:49:27.902] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 50 structureChanged: false Elapsed: 16.323679998517036ms
+Info 599  [11:49:27.902] Different program with same set of files:: structureIsReused:: 2
+Info 600  [11:49:30.134] Before ensureProjectForOpenFiles:
+Info 601  [11:49:30.134] After ensureProjectForOpenFiles:
+Info 602  [11:49:30.134] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 603  [11:50:30.148] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 604  [11:50:30.149] Elapsed:: 0.13479300029575825ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 605  [11:50:30.399] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 606  [11:50:30.420] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 51 structureChanged: false Elapsed: 20.84926899895072ms
+Info 607  [11:50:30.420] Different program with same set of files:: structureIsReused:: 2
+Info 608  [11:50:32.649] Before ensureProjectForOpenFiles:
+Info 609  [11:50:32.649] After ensureProjectForOpenFiles:
+Info 610  [11:50:32.649] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 611  [11:50:35.149] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 612  [11:50:35.149] Elapsed:: 0.06405200064182281ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 613  [11:50:35.399] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 614  [11:50:35.424] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 52 structureChanged: false Elapsed: 24.85008499957621ms
+Info 615  [11:50:35.424] Different program with same set of files:: structureIsReused:: 2
+Info 616  [11:50:37.649] Before ensureProjectForOpenFiles:
+Info 617  [11:50:37.649] After ensureProjectForOpenFiles:
+Info 618  [11:50:37.649] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 619  [11:50:47.650] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 620  [11:50:47.650] Elapsed:: 0.16083200089633465ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 621  [11:50:47.900] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 622  [11:50:47.926] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 53 structureChanged: false Elapsed: 25.58064200170338ms
+Info 623  [11:50:47.926] Different program with same set of files:: structureIsReused:: 2
+Info 624  [11:50:50.150] Before ensureProjectForOpenFiles:
+Info 625  [11:50:50.150] After ensureProjectForOpenFiles:
+Info 626  [11:50:50.150] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 627  [11:51:40.162] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 628  [11:51:40.162] Elapsed:: 0.2345180008560419ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 629  [11:51:40.412] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 630  [11:51:40.430] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 54 structureChanged: false Elapsed: 17.86443000100553ms
+Info 631  [11:51:40.430] Different program with same set of files:: structureIsReused:: 2
+Info 632  [11:51:42.662] Before ensureProjectForOpenFiles:
+Info 633  [11:51:42.663] After ensureProjectForOpenFiles:
+Info 634  [11:51:42.663] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 635  [11:51:50.162] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 636  [11:51:50.163] Elapsed:: 0.19686600007116795ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 637  [11:51:50.413] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 638  [11:51:50.432] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 55 structureChanged: false Elapsed: 18.237857999280095ms
+Info 639  [11:51:50.432] Different program with same set of files:: structureIsReused:: 2
+Info 640  [11:51:52.663] Before ensureProjectForOpenFiles:
+Info 641  [11:51:52.663] After ensureProjectForOpenFiles:
+Info 642  [11:51:52.663] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 643  [11:54:20.200] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 644  [11:54:20.200] Elapsed:: 0.08974099904298782ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 645  [11:54:20.450] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 646  [11:54:20.466] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 56 structureChanged: false Elapsed: 16.59845699928701ms
+Info 647  [11:54:20.466] Different program with same set of files:: structureIsReused:: 2
+Info 648  [11:54:22.700] Before ensureProjectForOpenFiles:
+Info 649  [11:54:22.700] After ensureProjectForOpenFiles:
+Info 650  [11:54:22.700] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 651  [11:54:45.203] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 652  [11:54:45.203] Elapsed:: 0.058629998937249184ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 653  [11:54:45.454] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 654  [11:54:45.473] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 57 structureChanged: false Elapsed: 18.890977000817657ms
+Info 655  [11:54:45.473] Different program with same set of files:: structureIsReused:: 2
+Info 656  [11:54:47.704] Before ensureProjectForOpenFiles:
+Info 657  [11:54:47.704] After ensureProjectForOpenFiles:
+Info 658  [11:54:47.704] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 659  [11:57:05.237] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 660  [11:57:05.238] Elapsed:: 0.05593799985945225ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 661  [11:57:05.488] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 662  [11:57:05.507] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 58 structureChanged: false Elapsed: 19.062223998829722ms
+Info 663  [11:57:05.507] Different program with same set of files:: structureIsReused:: 2
+Info 664  [11:57:07.738] Before ensureProjectForOpenFiles:
+Info 665  [11:57:07.738] After ensureProjectForOpenFiles:
+Info 666  [11:57:07.738] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 667  [11:57:47.743] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 668  [11:57:47.743] Elapsed:: 0.06658300012350082ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 669  [11:57:47.993] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 670  [11:57:48.049] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 59 structureChanged: true Elapsed: 55.60367199964821ms
+Info 671  [11:57:48.049] Different program with same set of files:: structureIsReused:: 1
+Info 672  [11:57:50.244] Before ensureProjectForOpenFiles:
+Info 673  [11:57:50.244] After ensureProjectForOpenFiles:
+Info 674  [11:57:50.244] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 675  [11:58:07.746] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 676  [11:58:07.746] Elapsed:: 0.0643290001899004ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 677  [11:58:07.996] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 678  [11:58:08.016] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 60 structureChanged: false Elapsed: 20.121857000514865ms
+Info 679  [11:58:08.017] Different program with same set of files:: structureIsReused:: 2
+Info 680  [11:58:10.247] Before ensureProjectForOpenFiles:
+Info 681  [11:58:10.247] After ensureProjectForOpenFiles:
+Info 682  [11:58:10.247] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 683  [11:58:27.749] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 684  [11:58:27.749] Elapsed:: 0.05850999988615513ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 685  [11:58:27.999] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 686  [11:58:28.015] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 61 structureChanged: false Elapsed: 15.886064000427723ms
+Info 687  [11:58:28.016] Different program with same set of files:: structureIsReused:: 2
+Info 688  [11:58:30.249] Before ensureProjectForOpenFiles:
+Info 689  [11:58:30.249] After ensureProjectForOpenFiles:
+Info 690  [11:58:30.249] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 691  [11:58:30.249] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 692  [11:58:30.249] Elapsed:: 0.034265998750925064ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 693  [11:58:30.499] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 694  [11:58:30.513] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 62 structureChanged: false Elapsed: 14.43992399983108ms
+Info 695  [11:58:30.513] Different program with same set of files:: structureIsReused:: 2
+Info 696  [11:58:32.749] Before ensureProjectForOpenFiles:
+Info 697  [11:58:32.749] After ensureProjectForOpenFiles:
+Info 698  [11:58:32.749] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 699  [11:58:40.251] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 700  [11:58:40.252] Elapsed:: 0.05418800003826618ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 701  [11:58:40.502] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 702  [11:58:40.518] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 63 structureChanged: false Elapsed: 15.930502001196146ms
+Info 703  [11:58:40.518] Different program with same set of files:: structureIsReused:: 2
+Info 704  [11:58:42.752] Before ensureProjectForOpenFiles:
+Info 705  [11:58:42.752] After ensureProjectForOpenFiles:
+Info 706  [11:58:42.752] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 707  [12:14:52.909] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 708  [12:14:52.909] Elapsed:: 0.1433790009468794ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 709  [12:14:53.159] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 710  [12:14:53.176] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 64 structureChanged: false Elapsed: 16.69798699952662ms
+Info 711  [12:14:53.176] Different program with same set of files:: structureIsReused:: 2
+Info 712  [12:14:55.409] Before ensureProjectForOpenFiles:
+Info 713  [12:14:55.409] After ensureProjectForOpenFiles:
+Info 714  [12:14:55.409] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 715  [12:16:30.424] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 716  [12:16:30.425] Elapsed:: 0.11809999868273735ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 717  [12:16:30.675] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 718  [12:16:30.699] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 65 structureChanged: false Elapsed: 22.892448998987675ms
+Info 719  [12:16:30.699] Different program with same set of files:: structureIsReused:: 2
+Info 720  [12:16:32.925] Before ensureProjectForOpenFiles:
+Info 721  [12:16:32.925] After ensureProjectForOpenFiles:
+Info 722  [12:16:32.925] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 723  [12:17:02.934] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 724  [12:17:02.935] Elapsed:: 0.06889399886131287ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 725  [12:17:03.185] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 726  [12:17:03.210] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 66 structureChanged: false Elapsed: 25.048123998567462ms
+Info 727  [12:17:03.210] Different program with same set of files:: structureIsReused:: 2
+Info 728  [12:17:05.434] Before ensureProjectForOpenFiles:
+Info 729  [12:17:05.435] After ensureProjectForOpenFiles:
+Info 730  [12:17:05.435] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 731  [12:17:32.939] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 732  [12:17:32.939] Elapsed:: 0.1850410010665655ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 733  [12:17:33.190] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 734  [12:17:33.210] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 67 structureChanged: false Elapsed: 20.665233001112938ms
+Info 735  [12:17:33.210] Different program with same set of files:: structureIsReused:: 2
+Info 736  [12:17:35.439] Before ensureProjectForOpenFiles:
+Info 737  [12:17:35.439] After ensureProjectForOpenFiles:
+Info 738  [12:17:35.439] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 739  [12:18:10.446] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 740  [12:18:10.446] Elapsed:: 0.19198600016534328ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 741  [12:18:10.696] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 742  [12:18:10.721] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 68 structureChanged: false Elapsed: 25.075284000486135ms
+Info 743  [12:18:10.721] Different program with same set of files:: structureIsReused:: 2
+Info 744  [12:18:12.946] Before ensureProjectForOpenFiles:
+Info 745  [12:18:12.946] After ensureProjectForOpenFiles:
+Info 746  [12:18:12.946] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 747  [12:18:12.946] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 748  [12:18:12.946] Elapsed:: 0.04468600079417229ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 749  [12:18:13.197] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 750  [12:18:13.220] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 69 structureChanged: false Elapsed: 23.490267999470234ms
+Info 751  [12:18:13.220] Different program with same set of files:: structureIsReused:: 2
+Info 752  [12:18:15.447] Before ensureProjectForOpenFiles:
+Info 753  [12:18:15.447] After ensureProjectForOpenFiles:
+Info 754  [12:18:15.447] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 755  [12:18:30.451] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 756  [12:18:30.451] Elapsed:: 0.05915500037372112ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 757  [12:18:30.702] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 758  [12:18:30.725] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 70 structureChanged: false Elapsed: 22.874024000018835ms
+Info 759  [12:18:30.725] Different program with same set of files:: structureIsReused:: 2
+Info 760  [12:18:32.953] Before ensureProjectForOpenFiles:
+Info 761  [12:18:32.953] After ensureProjectForOpenFiles:
+Info 762  [12:18:32.953] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 763  [12:18:52.954] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 764  [12:18:52.954] Elapsed:: 0.08053900115191936ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 765  [12:18:53.205] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 766  [12:18:53.241] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 71 structureChanged: false Elapsed: 35.54574600048363ms
+Info 767  [12:18:53.241] Different program with same set of files:: structureIsReused:: 2
+Info 768  [12:18:55.455] Before ensureProjectForOpenFiles:
+Info 769  [12:18:55.455] After ensureProjectForOpenFiles:
+Info 770  [12:18:55.455] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 771  [12:19:05.456] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 772  [12:19:05.456] Elapsed:: 0.05482000112533569ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 773  [12:19:05.706] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 774  [12:19:05.728] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 72 structureChanged: false Elapsed: 21.589437000453472ms
+Info 775  [12:19:05.728] Different program with same set of files:: structureIsReused:: 2
+Info 776  [12:19:07.956] Before ensureProjectForOpenFiles:
+Info 777  [12:19:07.956] After ensureProjectForOpenFiles:
+Info 778  [12:19:07.956] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 779  [12:19:20.458] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 780  [12:19:20.458] Elapsed:: 0.05271600000560284ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 781  [12:19:20.708] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 782  [12:19:20.728] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 73 structureChanged: false Elapsed: 20.073398999869823ms
+Info 783  [12:19:20.729] Different program with same set of files:: structureIsReused:: 2
+Info 784  [12:19:22.958] Before ensureProjectForOpenFiles:
+Info 785  [12:19:22.958] After ensureProjectForOpenFiles:
+Info 786  [12:19:22.958] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 787  [12:20:25.473] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 788  [12:20:25.473] Elapsed:: 0.11642399989068508ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 789  [12:20:25.723] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 790  [12:20:25.739] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 74 structureChanged: false Elapsed: 15.995238000527024ms
+Info 791  [12:20:25.739] Different program with same set of files:: structureIsReused:: 2
+Info 792  [12:20:27.973] Before ensureProjectForOpenFiles:
+Info 793  [12:20:27.974] After ensureProjectForOpenFiles:
+Info 794  [12:20:27.974] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 795  [12:21:15.486] FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 796  [12:21:15.486] Elapsed:: 0.08141900040209293ms FileWatcher:: Triggered with /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 1:: WatchInfo: /home/simon/projects/game1/src/scenes/loadModelAndEnv.ts 500 undefined Project:  WatchType: Closed Script info
+Info 797  [12:21:15.736] Starting updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json
+Info 798  [12:21:15.760] Finishing updateGraphWorker: Project: /home/simon/projects/game1/tsconfig.json Version: 75 structureChanged: false Elapsed: 23.10108199901879ms
+Info 799  [12:21:15.760] Different program with same set of files:: structureIsReused:: 2
+Info 800  [12:21:17.986] Before ensureProjectForOpenFiles:
+Info 801  [12:21:17.986] After ensureProjectForOpenFiles:
+Info 802  [12:21:17.987] got projects updated in background, updating diagnostics for /home/simon/projects/game1/webpack.dev.js,/home/simon/projects/game1/webpack.common.js
+Info 803  [12:26:49.344] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 804  [12:26:49.344] Elapsed:: 0.11025700159370899ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 805  [12:26:50.846] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/README.md 0:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 806  [12:26:50.846] Elapsed:: 0.024952998384833336ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/README.md 0:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 807  [12:26:50.846] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/index.json 1:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 808  [12:26:50.846] Elapsed:: 0.13381999917328358ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/index.json 1:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 809  [12:26:50.846] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/package.json 2:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 810  [12:26:50.846] Elapsed:: 0.038422999903559685ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/package.json 2:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 811  [12:26:50.846] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 3:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 812  [12:26:50.846] Elapsed:: 0.031091000884771347ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 3:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 813  [12:26:50.846] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 4:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 814  [12:26:50.846] Elapsed:: 0.01970599964261055ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 4:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 815  [12:26:50.846] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/fsevents 5:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 816  [12:26:50.846] Elapsed:: 0.017419999465346336ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/fsevents 5:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 817  [12:26:50.846] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 6:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 818  [12:26:50.846] Elapsed:: 0.018300998955965042ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 6:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 819  [12:26:50.847] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/fsevents 7:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 820  [12:26:50.847] Elapsed:: 0.017250999808311462ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/fsevents 7:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 821  [12:31:29.536] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/README.md :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 822  [12:31:29.536] Elapsed:: 0.037929000332951546ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/README.md :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 823  [12:31:29.537] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/index.json :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 824  [12:31:29.537] Elapsed:: 0.06867700070142746ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/index.json :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 825  [12:31:29.537] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/package.json :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 826  [12:31:29.537] Elapsed:: 0.03408199921250343ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry/package.json :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 827  [12:31:29.537] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 828  [12:31:29.537] Elapsed:: 0.02406500093638897ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry :: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 829  [12:31:31.040] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 0:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 830  [12:31:31.040] Elapsed:: 0.04686499945819378ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 0:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 831  [12:31:31.040] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/fsevents 1:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 832  [12:31:31.040] Elapsed:: 0.03482099995017052ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/fsevents 1:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 833  [12:31:31.040] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 2:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 834  [12:31:31.040] Elapsed:: 0.027840999886393547ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 2:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 835  [12:31:31.040] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/fsevents 3:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 836  [12:31:31.040] Elapsed:: 0.027672000229358673ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/fsevents 3:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 837  [12:31:31.040] DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 4:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 838  [12:31:31.040] Elapsed:: 0.02839300036430359ms DirectoryWatcher:: Triggered with /home/simon/.cache/typescript/4.1/node_modules/types-registry 4:: WatchInfo: /home/simon/.cache/typescript/4.1/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
