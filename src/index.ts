@@ -2,7 +2,6 @@ import { Engine } from "@babylonjs/core/Engines/engine";
 import { Scene } from "@babylonjs/core/scene";
 import * as DWT from "./scenes/defaultWithTexture";
 import * as LME from "./scenes/loadModelAndEnv";
-import * as PHY from "./scenes/physicsWithAmmo";
 
 const getModuleToLoad = (): string | undefined =>
   location.search.split("scene=")[1];
@@ -12,13 +11,6 @@ const routes: {
 } = {
   defaultWithTexture: DWT.createScene,
   loadModelAndEnv: LME.createScene,
-  physicsWithAmmo: async function (
-    engine: Engine,
-    canvas: HTMLCanvasElement
-  ): Promise<Scene> {
-    await PHY.runPreTasks();
-    return await PHY.createScene(engine, canvas);
-  },
 };
 
 export const babylonInit = async (): Promise<void> => {
@@ -27,7 +19,7 @@ export const babylonInit = async (): Promise<void> => {
 
   const createScene = moduleName
     ? routes[moduleName] || DWT.createScene
-    : DWT.createScene;
+    : LME.createScene;
 
   // Get the canvas element
   const canvas = document.getElementById("renderCanvas") as HTMLCanvasElement;

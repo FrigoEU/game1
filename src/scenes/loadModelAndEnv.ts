@@ -35,6 +35,75 @@ import { AnimationGroup } from "@babylonjs/core/Animations/animationGroup";
 import { AssetContainer } from "@babylonjs/core/assetContainer";
 import { Angle } from "@babylonjs/core/Maths/math";
 
+interface HumanAnimations {
+  walk: AnimationGroup;
+  run: AnimationGroup;
+  punch: AnimationGroup;
+  recieveHit: AnimationGroup;
+}
+
+interface Human {
+  mesh: Mesh;
+  assetContainer: AssetContainer;
+  animations: HumanAnimations;
+}
+interface Ranger extends Human {
+  animations: HumanAnimations & {
+    attackRanged: AnimationGroup;
+  };
+}
+interface Rogue extends Human {
+  animations: HumanAnimations & {
+    attackMelee: AnimationGroup;
+  };
+}
+
+const enum Direction {
+  North,
+  East,
+  South,
+  West,
+}
+
+/*
+  level layout
+  = n x m matrix.
+  North = on screen most to right and up
+  Farthest south-west = 0, 0
+  Farthest north-east = maxX, maxY
+
+*/
+
+type level = {
+  maxX: number; // > 0
+  maxY: number; // > 0
+  teams: {
+    characters: {
+      id: number;
+      location: [number, number];
+      facing: Direction;
+    };
+  }[];
+  obstacles: {
+    type: void;
+    location: [number, number];
+    facing: Direction;
+  }[];
+};
+
+type characterMap = {
+  [id: number]: Human;
+};
+
+type movement = {
+  characterId: number;
+  from: [number, number];
+  to: [number, number];
+  via: [number, number][] | null;
+};
+
+const queuedActions: movement[] = [];
+
 export async function createScene(
   engine: Engine,
   canvas: HTMLCanvasElement
@@ -105,34 +174,13 @@ export async function createScene(
     }
   }
 
-  interface HumanAnimations {
-    walk: AnimationGroup;
-    run: AnimationGroup;
-    punch: AnimationGroup;
-    recieveHit: AnimationGroup;
-  }
-
-  interface Human {
-    mesh: Mesh;
-    assetContainer: AssetContainer;
-    animations: HumanAnimations;
-  }
-  interface Ranger extends Human {
-    animations: HumanAnimations & {
-      attackRanged: AnimationGroup;
-    };
-  }
-  interface Rogue extends Human {
-    animations: HumanAnimations & {
-      attackMelee: AnimationGroup;
-    };
-  }
-
   async function loadRanger(scene: Scene): Promise<Ranger> {
     const loaded = await SceneLoader.LoadAssetContainerAsync(
       "",
       rangerM,
-      scene
+      scene,
+      null,
+      ".glb"
     );
 
     if (!loaded.meshes[0]) {
@@ -154,7 +202,13 @@ export async function createScene(
   }
 
   async function loadRogue(scene: Scene): Promise<Rogue> {
-    const loaded = await SceneLoader.LoadAssetContainerAsync("", rogueM, scene);
+    const loaded = await SceneLoader.LoadAssetContainerAsync(
+      "",
+      rogueM,
+      scene,
+      null,
+      ".glb"
+    );
 
     if (!loaded.meshes[0]) {
       throw new Error(`No mesh found when loading ${rogueM}`);
