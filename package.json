@@ -17,6 +17,7 @@
   "scripts": {
     "start": "node esbuild.js --serve",
     "types": "tsc -p . --noEmit",
-    "build": "node esbuild.js"
+    "build": "node esbuild.js",
+    "genModels": "find ./assets -type f -name '*.glb' -exec node ~/projects/glbgen/index.js {} \\;"
   }
 }

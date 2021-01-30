@@ -14,6 +14,9 @@ import "@babylonjs/core/Materials/standardMaterial";
 import "@babylonjs/core/Materials/Textures/Loaders/envTextureLoader";
 import "@babylonjs/loaders/OBJ";
 
+import * as Ranger from "../../assets/Ranger";
+import * as Rogue from "../../assets/Rogue";
+
 // debugger
 // import "@babylonjs/core/Debug/debugLayer";
 // import "@babylonjs/inspector";
@@ -21,15 +24,6 @@ import "@babylonjs/loaders/OBJ";
 // digital assets
 import controllerModel from "../../assets/glb/samsung-controller.glb";
 import roomEnvironment from "../../assets/environment/room.env";
-// import soldierModel from "../../assets/soldier.obj";
-// import dogModel from "../../assets/dog.glb";
-// import argonModel from "../../assets/Argon.glb";
-import rangerM from "../../assets/Ranger.glb";
-// import wizardM from "../../assets/Wizard.glb";
-// import warriorM from "../../assets/Warrior.glb";
-// import monkM from "../../assets/Monk.glb";
-// import clericM from "../../assets/Cleric.glb";
-import rogueM from "../../assets/Rogue.glb";
 import { Mesh } from "@babylonjs/core/Meshes/mesh";
 import { AnimationGroup } from "@babylonjs/core/Animations/animationGroup";
 import { AssetContainer } from "@babylonjs/core/assetContainer";
@@ -161,83 +155,16 @@ export async function createScene(
   // // just scale it so we can see it better
   // importR.meshes[0].scaling.scaleInPlace(10);
 
-  function findAnimation(ac: AssetContainer, name: string): AnimationGroup {
-    const nameLc = name.toLowerCase();
-    const res = ac.animationGroups.find(
-      (ac) => ac.name.toLowerCase() === nameLc
-    );
-    if (res) {
-      return res;
-    } else {
-      const acname = ac.meshes[0]?.name;
-      throw new Error(`Animation ${name} not found in asset ${acname}`);
-    }
-  }
-
-  async function loadRanger(scene: Scene): Promise<Ranger> {
-    const loaded = await SceneLoader.LoadAssetContainerAsync(
-      "",
-      rangerM,
-      scene,
-      null,
-      ".glb"
-    );
-
-    if (!loaded.meshes[0]) {
-      throw new Error(`No mesh found when loading ${rangerM}`);
-    }
-
-    // TODO: generate this from .glb file!
-    return {
-      mesh: loaded.meshes[0] as Mesh,
-      assetContainer: loaded,
-      animations: {
-        walk: findAnimation(loaded, "walk"),
-        run: findAnimation(loaded, "run"),
-        punch: findAnimation(loaded, "punch"),
-        recieveHit: findAnimation(loaded, "recieveHit"),
-        attackRanged: findAnimation(loaded, "bow_attack_draw"),
-      },
-    };
-  }
-
-  async function loadRogue(scene: Scene): Promise<Rogue> {
-    const loaded = await SceneLoader.LoadAssetContainerAsync(
-      "",
-      rogueM,
-      scene,
-      null,
-      ".glb"
-    );
-
-    if (!loaded.meshes[0]) {
-      throw new Error(`No mesh found when loading ${rogueM}`);
-    }
-
-    // TODO: generate this from .glb file!
-    return {
-      mesh: loaded.meshes[0] as Mesh,
-      assetContainer: loaded,
-      animations: {
-        walk: findAnimation(loaded, "walk"),
-        run: findAnimation(loaded, "run"),
-        punch: findAnimation(loaded, "punch"),
-        recieveHit: findAnimation(loaded, "recieveHit"),
-        attackMelee: findAnimation(loaded, "dagger_attack"),
-      },
-    };
-  }
-
-  const ranger = await loadRanger(scene);
+  const ranger = await Ranger.load(scene);
   ranger.assetContainer.addAllToScene();
 
   (window as any).ranger = ranger;
 
   ranger.mesh.position.x = -3;
 
-  ranger.animations.walk.start(true);
+  ranger.animations.Walk.start(true);
 
-  const rogue = await loadRogue(scene);
+  const rogue = await Rogue.load(scene);
   rogue.assetContainer.addAllToScene();
 
   rogue.mesh.position.x = 3;
@@ -255,7 +182,7 @@ export async function createScene(
   (window as any).Vector3 = Vector3;
   (window as any).Angle = Angle;
 
-  rogue.animations.walk.start(true);
+  rogue.animations.Walk.start(true);
 
   return scene;
 }
