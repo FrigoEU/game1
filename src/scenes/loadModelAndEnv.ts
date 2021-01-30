@@ -3,9 +3,7 @@ import { Scene } from "@babylonjs/core/scene";
 import { ArcRotateCamera } from "@babylonjs/core/Cameras/arcRotateCamera";
 import { Vector3 } from "@babylonjs/core/Maths/math.vector";
 import { HemisphericLight } from "@babylonjs/core/Lights/hemisphericLight";
-import { SceneLoader } from "@babylonjs/core/Loading/sceneLoader";
-import { CubeTexture } from "@babylonjs/core/Materials/Textures/cubeTexture";
-import { EnvironmentHelper } from "@babylonjs/core/Helpers/environmentHelper";
+import { Angle } from "@babylonjs/core/Maths/math";
 
 // required imports
 import "@babylonjs/core/Loading/loadingScreen";
@@ -14,43 +12,13 @@ import "@babylonjs/core/Materials/standardMaterial";
 import "@babylonjs/core/Materials/Textures/Loaders/envTextureLoader";
 import "@babylonjs/loaders/OBJ";
 
+// digital assets
 import * as Ranger from "../../assets/Ranger";
 import * as Rogue from "../../assets/Rogue";
 
 // debugger
 // import "@babylonjs/core/Debug/debugLayer";
 // import "@babylonjs/inspector";
-
-// digital assets
-import controllerModel from "../../assets/glb/samsung-controller.glb";
-import roomEnvironment from "../../assets/environment/room.env";
-import { Mesh } from "@babylonjs/core/Meshes/mesh";
-import { AnimationGroup } from "@babylonjs/core/Animations/animationGroup";
-import { AssetContainer } from "@babylonjs/core/assetContainer";
-import { Angle } from "@babylonjs/core/Maths/math";
-
-interface HumanAnimations {
-  walk: AnimationGroup;
-  run: AnimationGroup;
-  punch: AnimationGroup;
-  recieveHit: AnimationGroup;
-}
-
-interface Human {
-  mesh: Mesh;
-  assetContainer: AssetContainer;
-  animations: HumanAnimations;
-}
-interface Ranger extends Human {
-  animations: HumanAnimations & {
-    attackRanged: AnimationGroup;
-  };
-}
-interface Rogue extends Human {
-  animations: HumanAnimations & {
-    attackMelee: AnimationGroup;
-  };
-}
 
 const enum Direction {
   North,
@@ -85,9 +53,9 @@ type level = {
   }[];
 };
 
-type characterMap = {
-  [id: number]: Human;
-};
+// type characterMap = {
+//   [id: number]: Human;
+// };
 
 type movement = {
   characterId: number;
@@ -140,20 +108,6 @@ export async function createScene(
 
   // Default intensity is 1. Let's dim the light a small amount
   light.intensity = 0.7;
-
-  // const importR = await SceneLoader.ImportMeshAsync(
-  //   "",
-  //   "",
-  //   soldierModel,
-  //   scene,
-  //   undefined,
-  //   ".obj"
-  // );
-
-  // console.table(importR);
-
-  // // just scale it so we can see it better
-  // importR.meshes[0].scaling.scaleInPlace(10);
 
   const ranger = await Ranger.load(scene);
   ranger.assetContainer.addAllToScene();

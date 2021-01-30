@@ -14,8 +14,7 @@ const buildOptions = {
     '.glb': 'file',
     '.jpg': 'file'
   },
-  outdir: 'public',
-  outfile: "js/index.js",
+  outdir: 'public'
 };
 
 function log(a){
